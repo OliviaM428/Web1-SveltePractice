@@ -4,6 +4,7 @@
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 <p>Welcome to a website</p>
 <img src = "https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1_576x.jpg?v=1693905182" alt="Shrek">
+<h2>Hello</h2>
 
 
 <style>
@@ -11,7 +12,13 @@
         color: red;
         background-color: black;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2.5em;
+        font-size: 2em;
+    }
+
+    h2{
+        color: blueviolet;
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     p{
