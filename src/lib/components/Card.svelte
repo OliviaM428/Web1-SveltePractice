@@ -1,5 +1,5 @@
 <script>
-    let { name = 'Web 1', image = "https://placehold.co/200" } = $props();
+    let { name = 'Web 1', image = "https://placehold.co/200" } = $props(); 
 </script>
 
 

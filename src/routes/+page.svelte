@@ -1,6 +1,12 @@
 <script>
     let title = "super cool";
     import Card from "$lib/components/Card.svelte";
+    import chamberlain from "$lib/images/chamberlain.jpg";
+
+    let person = {
+        name: "Chamberlain",
+        image: chamberlain
+    }
 </script>
 
 <h1>Welcome to a {title} SvelteKit</h1>
@@ -10,7 +16,7 @@
 <img src = "https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1_576x.jpg?v=1693905182" alt="Shrek">
 <h2>Hello</h2>
 
-<Card name = {"Olivia"}/>
+<Card {...person}/>
 <Card name = {"Fundamentals of web dev"} image= { "https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1_576x.jpg?v=1693905182"}/>
 <Card />
 <Card />
