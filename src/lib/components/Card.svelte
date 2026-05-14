@@ -1,5 +1,5 @@
 <script>
-    let { name = 'Web 1', image } = $props();
+    let { name = 'Web 1', image = "https://placehold.co/200" } = $props();
 </script>
 
 
@@ -11,7 +11,6 @@
             <li>Hobby 1</li>
             <li>Hobby 2</li>
             <li>Hobby 3</li>
-            <li>https://placehold.co/200</li>
         </ul>
     </aside>
 </div>
