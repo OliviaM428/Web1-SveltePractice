@@ -11,7 +11,7 @@
 <h2>Hello</h2>
 
 <Card name = {"Olivia"}/>
-<Card name = {"Fundamentals of web dev"}/>
+<Card name = {"Fundamentals of web dev"} image= { "https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1_576x.jpg?v=1693905182"}/>
 <Card />
 <Card />
 
