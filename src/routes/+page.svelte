@@ -13,6 +13,7 @@
 <Card name = {"Olivia"}/>
 <Card name = {"Fundamentals of web dev"}/>
 <Card />
+<Card />
 
 <style>
     h1{
