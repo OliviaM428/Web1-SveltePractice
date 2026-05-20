@@ -1,6 +1,9 @@
-<nav class ="navbar">
-    <a href ="/">Home</a>
-    <a href ="/about">About</a>
+<nav>
+    <ul>
+        <li><a href ="/">Home</a></li>
+        <li><a href ="/about">About</a></li>
+        <li><a href ="/movies">Movies</a></li>
+    </ul>
 </nav>
 
 <h1>About Page</h1>
@@ -10,18 +13,29 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/250px-Garfield_the_Cat.svg.png" alt="Garfield">
 
 <style>
-    .navbar{
-        background-color: rgb(92, 92, 92);
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #333;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
     
-    .navbar a{
+    nav li a{
         color: white;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-        padding:  14px 16px;   
+        text-decoration: none;
+        padding: 0.5rem 1rem;
     }
 
-    .navbar a:hover{
-        background-color: rgb(43, 43, 43);
+    nav li a:hover{
+        background-color: #5f5f5f;
+        border-radius: 4px;
     }
 
 </style>

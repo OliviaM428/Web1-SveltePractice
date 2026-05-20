@@ -9,11 +9,19 @@
     }
 </script>
 
+<nav>
+    <ul>
+        <li><a href ="/">Home</a></li>
+        <li><a href ="/about">About</a></li>
+    </ul>
+</nav>
+
 <h1>Welcome to a {title} SvelteKit</h1>
 
+
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<p>Welcome to a website</p>
 <img src = "https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1_576x.jpg?v=1693905182" alt="Shrek">
+<p>Welcome to a website</p>
 <h2>Hello</h2>
 
 <Card {...person}/>
@@ -44,5 +52,16 @@
         border: solid 15px greenyellow;
         border-radius: 3%;
     }
+
+    nav{
+        background-color: black;
+    }
+    
+    nav a{
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    }
+
+
 </style>
 
